@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {
-    static ArrayList<SimpleMovie> movies = MovieDatabaseBuilder.getMovieDB("src/movie_data.txt");
+    static ArrayList<SimpleMovie> movies = MovieDatabaseBuilder.getMovieDB("movie_data.txt");
     static Map<String, ArrayList<String>> cowork = new HashMap<>();
     static HashMap<String, Edge> nodes = new HashMap<>();
 
